@@ -34,7 +34,7 @@
 	});
 </script>
 
-<h1>Welcome to SvelteKit</h1>
+<h1>Spelling Bee Searcher</h1>
 <p>Center Letter</p>
 <input bind:value={mainLetter}>
 

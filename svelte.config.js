@@ -23,7 +23,7 @@ const config = {
 		},
 
 		paths: {
-			base: dev ? '' : '/ny-times-spelling-be-samantha',
+			base: dev ? '' : '/ny-times-spelling-bee-samantha',
 		},
 		appDir: 'internal',
 	}
