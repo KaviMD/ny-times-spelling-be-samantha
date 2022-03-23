@@ -14,10 +14,6 @@
 
         const re = RegExp(`^[${mainLetter}${otherLetters}]+$`, "g");
 
-        console.log(re);
-
-        console.log(filterMainLetter.filter(word => re.test(word)));
-
         return filterMainLetter.filter(word => re.test(word));
     }
 
@@ -34,7 +30,6 @@
 		console.log(url);
 		j$.get(url, (data) => {
 			word_list = parseCSV(data);
-            console.log(word_list);
 		});
 	});
 </script>
